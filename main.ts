@@ -13,7 +13,7 @@ namespace test{
     //% block = 'led at pin %p | digital write %v'
     //% v.min = 0 v.max = 1 x.defl = 0
     export function test1(p: DigitalPin, v: number) {
-        pins.digitalWritePin(DigitalPin.P0, 0);
+        pins.digitalWritePin(p, v);
         
     }       
     }
